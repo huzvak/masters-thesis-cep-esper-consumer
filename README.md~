@@ -58,3 +58,7 @@ In this file you can find instructions how to use CEP-esper-consumer project as 
  * 3rd is the string with IP addresses and ports to ZooKeeper nodes
 * example of the command is:
  * _java -jar CEP-esper-consumer-0.0.1-SNAPSHOT-jar-with-dependencies.jar /esper/node1 1 147.251.43.240:2181,147.251.43.218:2181,147.251.43.236:2181,147.251.43.219:2181_
+<<<<<<< HEAD
+
+=======
+>>>>>>> 3c162d4a28c14526984beed6aae624b1098dfa9f
