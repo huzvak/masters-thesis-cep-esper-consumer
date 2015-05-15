@@ -30,7 +30,7 @@ In this file you can find instructions how to use CEP-esper-consumer project as 
 * run ZK cli with following command:
  * _./zkCli.sh -server 147.251.43.240:2181,147.251.43.218:2181,147.251.43.236:2181,147.251.43.219:2181_
 
-##Commands for cli ZK:
+##Commands for ZK cli:
 * for all commands just type _help_ and press enter
 * here are the most used commands:
  * _create /path/to/znode data_ - this command create new node on given path and store given data into it
