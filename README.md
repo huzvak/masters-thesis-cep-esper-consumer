@@ -1,5 +1,5 @@
 #Instructions: how to use
-In this file you can find instructions how to use CEP-esper-consumer project as well as project from repository (masters-thesis-kafka-producer)[https://github.com/huzvak/masters-thesis-kafka-producer]
+In this file you can find instructions how to use CEP-esper-consumer project as well as project from repository ([masters-thesis-kafka-producer](https://github.com/huzvak/masters-thesis-kafka-producer))
 
 ##List of the machines:
 * _huzvak01_ - Node with Kafka broker and ZooKeeper
@@ -40,7 +40,7 @@ In this file you can find instructions how to use CEP-esper-consumer project as 
  * _delete /path/to/znode dataversion_ - delete znode on given path if correct dataversion is provided
 
 
-##How to run (Producer)[https://github.com/huzvak/masters-thesis-kafka-producer]
+##How to run ([Producer](https://github.com/huzvak/masters-thesis-kafka-producer))
 * (can be run from any computer connected to the MU network, and with at least Java 1.7 installed)
 * move to the folder where the jar file with dependencies is located
 * run following command (the number at the end, is the number of topic to which data should be produced):
