@@ -17,7 +17,7 @@ In this file you can find instructions how to use CEP-esper-consumer project as 
 
 ##How to run Kafka broker:
 * you have to be connected to huzvak01 machine
-* move to _diplomka/kafka/kafka_2.9.2-0.8.1.1/_ folder located in user home folder with following command:
+* move to _diplomka/kafka/kafka_2.9.2-0.8.1.1/_ folder located in home folder (of user huzvak-0x) with following command:
  * _cd diplomka/kafka/kafka_2.9.2-0.8.1.1/_
 * run Kafka broker with following command:
  * _./bin/kafka-server-start.sh ./config/server.properties_
@@ -25,7 +25,7 @@ In this file you can find instructions how to use CEP-esper-consumer project as 
 
 ##How to run ZooKeeper command line interface (ZK cli):
 * you have to be connected to any from above mentioned four machines (probably it will works from any machine that has installed ZooKeeper and is in the Masaryk University network)
-* move to folder _/usr/share/zookeeper/bin/_ located in user home folder with following command:
+* move to folder _/usr/share/zookeeper/bin/_ located in home folder (of user huzvak-0x) with following command:
  * _cd /usr/share/zookeeper/bin/_
 * run ZK cli with following command:
  * _./zkCli.sh -server 147.251.43.240:2181,147.251.43.218:2181,147.251.43.236:2181,147.251.43.219:2181_
@@ -50,7 +50,7 @@ In this file you can find instructions how to use CEP-esper-consumer project as 
 ##How to run Esper and consumer (cep-esper-consumer project)
 * (should be run from machines huzvak02, huzvak03 and huzvak04) 
 * currently cannot be run from other machines in MU network, because ZK timeout exception is set to 400 ms which is too low
-* when connected to the machine, move to folder _projekt_ in home folder. You can use following command:
+* when connected to the machine, move to folder _projekt_ in home folder (of user huzvak-0x). You can use following command:
  * _cd ./projekt_
 * to start consumer, use the following command, where arguments are following: 
  * 1st argument is the znode from which configuration should be read
