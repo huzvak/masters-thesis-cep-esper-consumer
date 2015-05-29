@@ -44,7 +44,7 @@ In this file you can find instructions how to use CEP-esper-consumer project as 
 * (can be run from any computer connected to the MU network, and with at least Java 1.7 installed)
 * move to the folder where the jar file with dependencies is located
 * run following command (the number at the end, is the number of topic to which data should be produced):
- * _java -jar kafka-producer-1.0-SNAPSHOTar-with-dependencies.jar 1_
+ * _java -jar kafka-producer-1.0-SNAPSHOT-jar-with-dependencies.jar 1_
 
 
 ##How to run Esper and consumer (cep-esper-consumer project)
